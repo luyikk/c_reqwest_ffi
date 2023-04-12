@@ -16,6 +16,7 @@ pub struct Result {
     data: OnceCell<Vec<u8>>,
 }
 
+
 /// 新建运行时
 /// thread_count 表示并发线程数量
 #[no_mangle]
